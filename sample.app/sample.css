@@ -1,0 +1,55 @@
+/* コメント反映されない */
+/* 色を変える　どこの要素変えるか指定する */
+/* 文字のサイズも変更できる */
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+/* 文字の種類を変える */
+p {
+    font-family: serif;
+}
+
+/* 横幅、高さ、背景色の変更 */
+h2 {
+    width: 500px;
+    height: 80px;
+    background-color: gray;
+}
+
+/* クラスに反映させる　頭に.を忘れない */
+.selected {
+    color: green;
+}
+
+.header {
+    background-color: rgb(0, 174, 255);
+    height: 80px;
+}
+.main {
+    background-color: white;
+    height: 600px;
+}
+.footer {
+    background-color: turquoise;
+    height: 80px;
+}
+
+li {
+    font-size: 20px;
+    list-style: none; /* 中点をなくす */
+    float: left; /* 横並びにする */
+    padding: 33px;
+}
+.header-logo {
+    font-size: 60px;
+    float: left;
+    padding: px; /* 上下左右の余白 padding-top:; これは上だけ余白　4つ並べると上右下左　2つ並べると上+下、左+右*/
+}
+.header-list2 {
+    float: right;
+}
+span{
+    color: red;
+}
